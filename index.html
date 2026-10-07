@@ -17,24 +17,18 @@
     <main> 
 
         <!-- Dashboard -->
-        <section>
+        <section id="dashboard">
             <h2>Dashboard</h2>
-            <p>Aqui você pode visualizar o status dos seus chamados, acompanhar prazos e acessar informações importantes.</p>
+            <p>Acompanhe a situação dos chamados</p>
 
-            <div>   
-                <article>
-                    <h3>Total</h3>
-                    <span id="total-chamados">0</span>
-                </article>
+            <div id="grafico">
+                <div id="total-chamados">0</div>   
+            </div>
 
-                <article>
-                    <h3>Em Andamento</h3>
-                    <span id="chamados-em-andamento">0</span>
-                </article>
-
-                <article>
-                    <h3>Concluídos</h3>
-                    <span id="chamados-concluidos">0</span>
+            <div id="legenda">
+                <p id="chamados-abertos">Abertos: 0</p>
+                <p id="chamados-em-andamento">Em Andamento: 0</p>
+                <p id="chamados-concluidos">Concluídos: 0</p>
             </div>
         </section>
 
@@ -67,6 +61,58 @@
 
             <div id="lista-chamados">
                 <!-- Os chamados serão inseridos aqui pelo JS -->
+
+                <div class="divTable blueTable">
+                    <div class="divTableHeading">
+                    <div class="divTableRow">
+                    <div class="divTableHead">TODOS</div>
+                    <div class="divTableHead">EM ANDAMENTO</div>
+                    <div class="divTableHead">CONCLU&Iacute;DO</div>
+                    </div>
+                    </div>
+                    <div class="divTableBody">
+                    <div class="divTableRow">
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    </div>
+                    <div class="divTableRow">
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    </div>
+                    <div class="divTableRow">
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    </div>
+                    <div class="divTableRow">
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    </div>
+                    <div class="divTableRow">
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    </div>
+                    <div class="divTableRow">
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    </div>
+                    <div class="divTableRow">
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    </div>
+                    <div class="divTableRow">
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    <div class="divTableCell">&nbsp;</div>
+                    </div>
+                    </div>
+                    </div>
             </div>
           </section>
 

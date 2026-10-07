@@ -58,29 +58,32 @@ section h2 {
 
 /* Dashboard */
 
-section:first-child > div {
+#dashboard {
+    text-align: center;
+}
+
+#grafico {
+    width: 200px;
+    height: 200px;
+    background-color: #e5e7eb;
+    border-radius: 50%;
+    margin: 30px auto;
+
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-section:first-child > article {
-    flex: 1;
-    min-width: 180px;
-    padding: 20px;
-    border-radius: 8px;
-    background-color: #f1f5f9;
+#chamados-abertos{
+    color: rgb(0, 126, 0);
 }
 
-section:first-child > article h3 {
-    margin-top: 0;
-    color: #475569;
+#chamados-em-andamento {
+    color: rgb(255, 166, 0);
 }
 
-section:first-child > article span {
-    font-size: 30px;
-    font-weight: bold;
-    color: #1e293b;
+#chamados-concluidos {
+    color: rgb(0, 0, 255);
 }
 
 /* Busca e filtros do chamado */
@@ -110,7 +113,43 @@ textarea {
 /* Lista de Chamados */
 
 #lista-chamados {
-    min-height: 50px;
+    div.blueTable {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+.divTable.blueTable .divTableCell, .divTable.blueTable .divTableHead {
+  border: 1px solid #0064AA;
+  padding: 5px 5px;
+}
+.divTable.blueTable .divTableBody .divTableCell {
+  font-size: 14px;
+  color: #000000;
+}
+.divTable.blueTable .divTableHeading {
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(16, 25, 36, 1) 100%);
+    border-bottom: 2px solid #444444;
+}
+.divTable.blueTable .divTableHeading .divTableHead {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+.blueTable .tableFootStyle {
+  font-size: 14px;
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
 }
 
 /* Formulário */
