@@ -5,15 +5,17 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
-    color: #222;
+
+    background-image: url("assets/download.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 /* Cabeçalho */
 
 header {
-    background: #020024;
-    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(16, 25, 36, 1) 100%);
     padding: 25px;
     text-align: center;
 }
@@ -180,8 +182,6 @@ button {
 /* Footer */
 
 footer {
-    background: #020024;
-    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(16, 25, 36, 1) 100%);
     text-align: center;
     padding: 5px;
 }
