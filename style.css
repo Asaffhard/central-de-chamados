@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+/* Cabeçalho */
+
+header {
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(16, 25, 36, 1) 100%);
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    color: #ffff;
+}
+
+header p {
+    font-size: 17px;
+    letter-spacing: 2.0px;
+    word-spacing: -0.4px;
+    margin: 0;
+    color: #dbeafe
+}
+
+/* Parte principal */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+/* Sections */
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+   -webkit-box-shadow: 8px 2px 14px 4px rgba(0,40,255,0.33); 
+    box-shadow: 8px 2px 14px 4px rgba(0,40,255,0.33);
+}
+   
+
+section h2 {
+    margin-top: 0;
+    color: #1e293b;
+}
+
+/* Dashboard */
+
+section:first-child > div {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+section:first-child > article {
+    flex: 1;
+    min-width: 180px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f1f5f9;
+}
+
+section:first-child > article h3 {
+    margin-top: 0;
+    color: #475569;
+}
+
+section:first-child > article span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+/* Busca e filtros do chamado */
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select { 
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Lista de Chamados */
+
+#lista-chamados {
+    min-height: 50px;
+}
+
+/* Formulário */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Botão de envio */
+
+button {
+    background-color: #022ca0;
+    color: #fff;
+    border: 2px solid #00bfff;
+    padding: 12px 20px;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+footer {
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(16, 25, 36, 1) 100%);
+    text-align: center;
+    padding: 5px;
+}
+
+footer p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    word-spacing: 0.5px;
+    color: #FAFFF7;
+    font-weight: 400;
+    text-decoration: none;
+    font-variant: normal;
+    text-transform: none;
+    margin-top: 15px;
+    line-height: 0.3;
+}
+
+footer p2 {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    word-spacing: -0.5px;
+    color: #FAFFF7;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
