@@ -74,6 +74,11 @@ section h2 {
     justify-content: center;
 }
 
+#total-chamados {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 #chamados-abertos{
     color: rgb(0, 126, 0);
 }
@@ -106,7 +111,7 @@ select {
 }
 
 textarea {
-    height: 100px;
+    height: 80px;
     resize: vertical;
 }
 
