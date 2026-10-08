@@ -36,20 +36,24 @@ header p {
 /* Parte principal */
 
 main {
-    width: 90%;
-    max-width: 1200px;
+    width: 80%;
+    max-width: 1050px;
     margin: 30px auto;
+
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 2px 14px 4px rgba(2, 124, 131, 0.785);
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
 
 /* Sections */
 
 section {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-   -webkit-box-shadow: 8px 2px 14px 4px rgba(0,40,255,0.33); 
-    box-shadow: 8px 2px 14px 4px rgba(0,40,255,0.33);
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
    
 
