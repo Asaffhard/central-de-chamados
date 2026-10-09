@@ -443,18 +443,4 @@ O repositório contém os arquivos da aplicação, o histórico de commits, as b
 
 ---
 
-## 11. Integrantes
-
-**Asaff Hardman**
-
-**Vitória Helena Chicout**
-
-Ciência da Computação – 6º Período
-
-Centro Universitário Tiradentes – UNIT
-
-Disciplina: Programação Web
-
-Professor: Victor Brayner
-
 2026
