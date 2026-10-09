@@ -54,66 +54,30 @@
             </select>
          </section>
 
+         
+
 
          <!-- Lista de chamados -->
           <section> 
             <h2>Lista de Chamados</h2>
 
             <div id="lista-chamados">
-                <!-- Os chamados serão inseridos aqui pelo JS -->
-
-                <div class="divTable blueTable">
-                    <div class="divTableHeading">
-                    <div class="divTableRow">
-                    <div class="divTableHead">TODOS</div>
-                    <div class="divTableHead">EM ANDAMENTO</div>
-                    <div class="divTableHead">CONCLU&Iacute;DO</div>
-                    </div>
-                    </div>
-                    <div class="divTableBody">
-                    <div class="divTableRow">
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    </div>
-                    <div class="divTableRow">
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    </div>
-                    <div class="divTableRow">
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    </div>
-                    <div class="divTableRow">
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    </div>
-                    <div class="divTableRow">
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    </div>
-                    <div class="divTableRow">
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    </div>
-                    <div class="divTableRow">
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    </div>
-                    <div class="divTableRow">
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    <div class="divTableCell">&nbsp;</div>
-                    </div>
-                    </div>
-                    </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Número</th>
+                            <th>Título</th>
+                            <th>Categoria</th>
+                            <th>Prioridade</th>
+                            <th>Solicitante</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpo-tabela"></tbody>
+                </table>
             </div>
+
+            
           </section>
 
 
@@ -166,7 +130,7 @@
         <p2>@ Desenvolvido por Asaff Hardman e Vitória Helena Chicout</p2>
     </footer>
 
-    <script src="app.js"></script>
+    <script type="module" src="js/app.js"></script>
 
 </body>
 </html>

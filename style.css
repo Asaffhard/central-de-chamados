@@ -91,7 +91,6 @@ section h2 {
     color: rgb(0, 0, 255);
 }
 
-/* Busca e filtros do chamado */
 
 label {
     display: block;
@@ -211,4 +210,22 @@ footer p2 {
     font-style: italic;
     font-variant: normal;
     text-transform: none;
+}
+
+
+#lista-chamados table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+#lista-chamados th,
+#lista-chamados td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+#lista-chamados th {
+    background-color: #e8edff;
 }
