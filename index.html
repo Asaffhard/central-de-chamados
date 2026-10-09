@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Chamados</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Central de Chamados Hardman & Chicout</h1>
+        <p> Gerencie e acompanhe suas solicitações abaixo</p>
+    </header>
+
+    <main> 
+
+        <!-- Dashboard -->
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <p>Acompanhe a situação dos chamados</p>
+
+            <div id="grafico">
+                <div id="total-chamados">0</div>   
+            </div>
+
+            <div id="legenda">
+                <p id="chamados-abertos">Abertos: 0</p>
+                <p id="chamados-em-andamento">Em Andamento: 0</p>
+                <p id="chamados-concluidos">Concluídos: 0</p>
+            </div>
+        </section>
+
+
+        <!-- Busca e filtros -->
+         <section>
+            <h2>Buscar chamados</h2>
+
+            <label for="busca">Pesquisar:</label>
+            <input
+            type="text"
+            id="busca"
+            placeholder="Digite o título do chamado..."
+            >
+
+            <label for="filtro-status">Filtrar por status:</label>
+
+            <select id="filtro-status">
+                <option value="todos">Todos</option>
+                <option value="Aberto">Em Andamento</option>
+                <option value="Em andamento">Em Andamento</option>
+                <option value="Concluído">Concluídos</option>
+            </select>
+         </section>
+
+         
+
+
+         <!-- Lista de chamados -->
+          <section> 
+            <h2>Lista de Chamados</h2>
+
+            <div id="lista-chamados">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Número</th>
+                            <th>Título</th>
+                            <th>Categoria</th>
+                            <th>Prioridade</th>
+                            <th>Solicitante</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpo-tabela"></tbody>
+                </table>
+            </div>
+
+            
+          </section>
+
+
+          <!-- Cadastro de chamados -->
+           <section> 
+            <h2>Cadastrar Novo Chamado</h2>
+
+            <form id="form-chamado">
+
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo">
+
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao"></textarea>
+
+                <label for="categoria">Categoria:</label>
+
+                <select id="categoria" name="categoria">
+                    <option value="">Selecione uma categoria</option>
+                    <option value="Acesso ao Sistema">Acesso ao Sistema</option>
+                    <option value="Internet">Internet</option>
+                    <option value="Manutenção">Manutenção</option>
+                    <option value="Suporte">Suporte</option>
+                </select>
+
+                <label for="prioridade">Prioridade:</label>
+
+                <select id="prioridade" name="prioridade">
+                    <option value="">Selecione a prioridade</option>
+                    <option value="Baixa">Baixa</option>
+                    <option value="Média">Média</option>
+                    <option value="Alta">Alta</option>
+                </select>
+
+
+                <label for="solicitante">Solicitante:</label>
+                <input type="text" id="solicitante" name="solicitante">
+
+
+                <button type="submit">Cadastrar Chamado</button>
+
+            </form>
+           </section>
+
+    </main>
+
+
+    <footer>
+        <p>Central de Chamados</p>
+        <p2>@ Desenvolvido por Asaff Hardman e Vitória Helena Chicout</p2>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+
+</body>
+</html>
